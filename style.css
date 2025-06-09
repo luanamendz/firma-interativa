@@ -1,77 +1,39 @@
-/* Fundo com frango da firma */
 body {
   margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
   background-image: url("images/ofrango.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  color: #fff;
-}
-
-/* Container com fundo preto semi-transparente para destacar o conteúdo */
-.container {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 2rem 3rem;
-  border-radius: 12px;
-  max-width: 800px;
-  margin: 3rem auto;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
-}
-
-/* Título com fundo preto sólido e letras amarelas */
-header h1 {
-  background-color: #000000;
-  color: #ffeb3b;
+  background-repeat: no-repeat;
+  color: white;
   text-align: center;
-  font-size: 2.8rem;
-  padding: 1rem 0;
-  margin: 0 -3rem 1rem -3rem;
-  border-radius: 12px 12px 0 0;
-  box-shadow: 0 3px 10px rgba(255, 235, 59, 0.5);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: brightness(0.6);
 }
 
-/* Data atual com fundo preto leve e texto branco */
-.data {
-  background-color: rgba(0, 0, 0, 0.9);
-  text-align: center;
-  font-style: italic;
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+main {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Frase do dia com fundo preto e texto amarelo */
-.frase {
-  background-color: rgba(0, 0, 0, 0.95);
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+#data-atual {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+#frase-frango {
   font-size: 1.4rem;
-  text-align: center;
-  font-weight: bold;
-  line-height: 1.5;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(255, 235, 59, 0.8);
-  color: #ffeb3b;
-  user-select: none;
-}
-
-/* Rodapé com fundo preto e texto branco levemente opaco */
-footer {
-  background-color: #000000;
-  text-align: center;
-  margin-top: 2rem;
-  padding: 1rem 0;
-  font-size: 0.9rem;
-  opacity: 0.8;
-  border-radius: 0 0 12px 12px;
-  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.7);
-}
-
-/* Link para mudar a frase */
-#mudar-frase:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
