@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frango da Firma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🐔 Frango da Firma</h1>
+    <p id="frase-frango"></p>
+  </header>
+
+  <main>
+    <section class="calculadora">
+      <h2>💰 Calculadora de Juros Compostos</h2>
+      <label>Capital Inicial (R$): <input type="number" id="capital"></label>
+      <label>Taxa de Juros (% ao mês): <input type="number" id="taxa"></label>
+      <label>Tempo (meses): <input type="number" id="tempo"></label>
+      <button onclick="calcularJuros()">Calcular</button>
+      <p id="resultado"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Frango da Firma S/A — O caos calculado 🐔</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
