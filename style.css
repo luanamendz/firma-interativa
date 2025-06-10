@@ -36,9 +36,20 @@ h1 {
 
 #frase-frango {
   font-size: 1.4rem;
+  color: #fff200;
+  font-weight: bold;
 }
 
-
-#frase-frango {
-  font-size: 1.4rem;
+.assinatura-fixa {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff200;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-style: italic;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
